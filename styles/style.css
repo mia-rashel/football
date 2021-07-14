@@ -1,0 +1,239 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(126, 126, 129);
+}
+.top-banner{
+    display: flex;
+    /* display: grid;
+    grid-template-columns: repeat(2,lfr); */
+    background-color: #2D25A0;;
+
+    
+}
+.banner-title{
+    font-size: 40px;
+    color: white;
+    width: 600px;
+    height: 230px;
+    line-height:80px;
+    margin-top: 187px;
+    margin-left: 156px;
+    margin-bottom:240px ;
+    margin-right: 800px;
+}
+.button{
+    margin-top: -70px;
+    opacity: 1;
+    transition: 0.5s;
+       
+}
+.button:hover{
+    opacity: 0.5;
+
+}
+.watch-button{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: lighter;
+    padding: 10px 20px;
+    color: white;
+    background-color: #E02C6D;
+}
+.banner-image-container{
+    
+    width: 556.01px;
+    height: 438px;
+    margin: 153px 141px 86px -550px;
+    
+}
+.banner-image{
+    position: relative;
+    width: 520px;
+    height: 428px;
+    top: -18px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 70px;
+    padding-left: 180px;
+    padding-right: 180px;
+    grid-column-gap: 30px;
+    grid-row-gap:27px ;
+    grid-column-gap:30px;
+}
+.player{
+    padding: 10px;
+    border: 5px solid white;
+    box-shadow:-2px -2px 15px 15px rgba(0,0,0,0.10);
+    width: 280px;
+    height: 420px;
+}
+.image{
+    width: 280px;
+    height: 250px;
+}
+ 
+.highlights-banner{
+    margin-top:150px ;
+}
+.highlights-banner{
+    display: flex;
+    margin-bottom: 50px;
+}
+.all-highlights{
+    padding-left: 182px;
+    padding-top: 50px;
+    width: 469px;
+    height: 309px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.all-highlights h1{
+    font-size: 50px;
+    line-height: 55px;
+    
+}
+.all-highlights p{
+    margin-top: -30px;
+}
+.watch-now{
+    margin-top: 20px;
+}
+.highlights-image{
+    margin-left: 65px;
+    width: 567px;
+    height: 427px;
+}
+.football-partners{
+    margin-left: 500px;
+    font-size: 30px;
+    font-weight: lighter;
+
+}
+.partners{
+    align-items: center;
+    padding-left: 250px;
+    height: 200px;
+    width: 1300;
+    display: flex;
+}
+ .partners-logo{
+    width: 250px;
+    height: 150px;
+}
+.footer-details{
+    width: 484px;
+    height: 214px;
+    margin-top: 50px;
+    margin-left:475px ;
+    margin-right: 475px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-image{
+    width: 400px;
+}
+.icon{
+    width: 200px;
+    padding-left: 120px;
+    
+}
+
+.fab{
+    width: 25px;
+    height: 25px;
+    padding-left: 10px;
+    padding-top: 8px;
+    background-color: rgba(131, 136, 136, 0.568);
+    border-radius: 50px;
+   
+}
+.copyright p{
+
+   padding-left: 100px;
+   color: black;
+}
+/* -------------
+Media Queries
+------------- */
+
+/* mobile device */
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .banner-title{
+        
+        margin: 60px 66px 445px 16px;
+        font-size: 34px;
+        color: white;
+        width: 278px;
+        height: 138px;
+        line-height: 80px;
+    }
+    .banner-image-container{
+        
+        width: 400px;
+        height: 280px;
+        margin: 500px 0px 0px -340px;
+    }
+    .banner-image{
+        position: relative;
+        width: 300px;
+        height: 250px;
+        top: -10px;
+    }
+    .players{
+        padding-left: 18px;
+        padding-top:18px;
+        padding-bottom: 18px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .highlights-banner{
+        display: flex;
+        flex-direction: column;
+    }
+    .all-highlights{
+        width: 100%;
+        padding-left: 10px;
+        align-items: flex-start;
+        padding-bottom: 100px;
+        
+    }
+    .highlights-image{
+        margin-top: 20px;
+        margin-left: 10px;
+        width: 320px;
+        height: 250px;
+    }
+    .football-partners {
+        margin-left: 50px;
+        font-size: 30px;
+        font-weight: lighter;
+    }
+    .partners{
+        display: grid;
+        grid-template-rows: repeat(3,1fr);
+        align-items: center;
+        padding-left: 25px;
+        padding-bottom: 50px;
+        height: 450px;
+    }
+    .footer-details{
+        width: 484px;
+        height: 214px;
+        margin-left: 0px;
+    }
+    .footer-image {
+        width: 250px;
+        margin-left: 30px;
+    }
+
+    
+}
